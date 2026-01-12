@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet and Web Definitions</title>
+</head>
+<body>
+    <h1>Hatada, Zeph Kentaro</h1>
+    <h2>1. Internet</h2>
+        <p>The internet is a massive  global network connecting different devices and allowing them to communicate with each other. It forms a "network of networks" and allows users to connect online via websites, email, games, streaming, and more.</p>
+    <h2>2. Web</h2>
+        <p>The web is what we use to access information on the internet through browsers. Its short for The World Wide Web (www), and is found on the unique address of webpages. </p>
+    <h2>3. How are the internet and web different?</h2>
+        <p>The internet is like a very long and complex railroad, while the web is like different train stations on the railroad. The train can get you to different stops to access different websites. You can use the internet without the web, but you cant use the web without the internet. For example, playing an online game can use the internet but doesnt need to use the web.</p>
+    <h2>4. ASCII and Unicode</h2>
+        <p>Both ASCII and Unicode are tables that assigns unique numbers to different characters. ASCII is an older system used for English characters, while Unicode has a universal character set featuring different languages, symbols, and emojis.</p>
+    <h2>5. What is UTF-8?</h2>
+        <p>UTF-8 stands for Unicode Transformation Format - 8 Bit. Its the more commonly used character encoding standard which can represent every character in the Unicode Standard. It has universal language coverage, and saves space for English text compared to other encodings like UTF-16.</p>
+    <h2>6. URL</h2>
+        <p>URL stands for Uniform Resource Locator. Its the unique address that every webpage has and tells browsers how to find the website and retrieve them using domain names.</p>    
+    <h2>7. Domain Name</h2>
+        <p>A domain name is a unique part of the URL address that can be used to access their websites. For example: google.com or facebook.com</p>
+    <h2>8. HTTP</h2>
+        <p>HTTP stands for Hypertext Transfer Protocol. It is a protocol that allows web browsers and servers to communicate and transfer resources.</p>
+    <h2>9. HTTPS</h2>
+        <p>HTTPS stands for Hypertext Transfer Protocol Secure. This is the encrypted version of HTTP and creates a more secure connection between the browser and the website.</p>
+    <h2>10. IP Address</h2>
+        <p>An IP address or Internet Protocol Address is the unique string of numbers thats assigned to every device connected to the internet.</p>
+    <h2>11. DNS</h2>
+        <p>DNS stands for Domain Name System and is used for translating website names into strings of numbers known as the IP Address. It directs the user to the correct server for the website they want to enter.</p>
+    <h2>12. W3C Recommendations</h2>
+        <p>W3C Recommendations are standards set for web technologies. It means the W3C community has tested and agreed on a stable way for something like HTML to function and for users to have a better experience.</p>
+    <h2>13. XML, XHTML, HTML, HTML5</h2>
+        <p>All of these are markup languages, but they all have different features and are used differently. HTML was designed as a foundational language to create documents and display content on the web. HTML5 is the latest and newest version of HTML. XML is primarily used for encoding documents and storing data for transport. XHTML is like half XML and HTML, It has the same function as HTML, but with the same rules as XML.</p>   
+    </body>
+</html>
