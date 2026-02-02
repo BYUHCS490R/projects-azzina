@@ -1,0 +1,10 @@
+main p{
+    color:blue;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header p{
+    color:brown;
+    background-color: azure;
+    font-weight: bolder;
+}
