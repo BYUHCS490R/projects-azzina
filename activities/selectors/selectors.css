@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+main p{
+    color:cadetblue;
+    font-size: 10pt;
+}
+#second{
+    color:brown;
+}
+.larger{
+    font-size: 15pt;
+}
+.purple{
+    color: purple;
+}
+.separate{
+    font-family: Jokerman;
+}
+.bolder{
+    font-weight: 900;
+}
