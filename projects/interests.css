@@ -1,0 +1,21 @@
+body{
+    font-family: monospace;
+    font-size: small;
+    color: #2b2b5d;
+    background-color: #8686AC;
+}
+h1,h2,.emphasize{
+    color: #0d0620;
+}
+#hero{
+    font-family: 'Brush Script MT';
+}
+.click{
+    font-weight: bold;
+}
+dt{
+    font-weight: bold;
+}
+span{
+    font-size: larger;
+}
