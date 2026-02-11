@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('graybg.jpg') repeat gray; 
+}
+.decorative{
+    min-height: 80px;
+    background: url('tree.jpg') no-repeat right;
+}
+.mylist{
+    list-style-image: url('blueicon.ico');
+}
+.flower{
+    height:200px;
+}
