@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('oceanbg.jpg') lightblue;
+}
+.decorative{
+    background: url('welcomebacolod.jpg') no-repeat right;
+    list-style-image: url('fishicon.png');
+}
+.current{
+    color:black
+}
+a:active{
+    color:red
+}
