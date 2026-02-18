@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: cadetblue;
+    padding: 50px 100px 150px 10px;
+    
+}
+main{
+    background-color: burlywood;
+}
+.mainpicture{
+    background-color: blue;
+    width: 250px;
+    margin-left: 0;
+}
+.mainpicture img{
+    width: 250px;
+}
+footer{
+    background-color: lightgray;
+    border: 10px solid black;
+}
