@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.piano{
+    width: 200px;
+    overflow: hidden;
+    border: thin solid #000000;
+}
+.floatleft{
+    float: left;
+}
+.place{
+    position: relative;
+    left: 50px;
+}
+.piano img{
+    width: 100%;
+}
+.stop{
+    clear: both;
+}
+
