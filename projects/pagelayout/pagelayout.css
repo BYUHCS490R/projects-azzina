@@ -1,0 +1,57 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background: #ce9e9c;
+    font-weight: 200;
+}
+header{
+    background: #ff4654;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 10px black groove;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #ce9e9c;
+    border-radius: 1cm;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    height: 30px;
+}
+nav a{
+    display: inline-block;
+    background-color: #ff4654;
+    color: #111823;
+    padding: 5px;
+    border: thin solid #111823;
+    margin: 5px;
+    text-decoration: none;
+    line-height: 0.5cm;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #ba3a46;
+}
+.floatleft{
+    float: left;
+}
+#wrapper{
+    width: 900px;
+    background-color: #ff8894;
+    margin: auto;
+    border: thin solid black;
+    box-shadow: 5px 5px rgba(200,200,200,0.7);
+}
+.boldtext{
+    font-weight: 900;
+}
+.decorative{
+    min-height: 80px;
+    background: url('valoranticon.png') no-repeat right;
+    background-origin: content-box;
+    background-clip: padding-box;
+}
