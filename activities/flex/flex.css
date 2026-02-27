@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+nav a{
+    display: block;
+    padding: 5px;
+    background-color: burlywood;
+    text-decoration: none;
+    color: white;
+}
+#parent{
+    display: flex;
+    flex-flow: row wrap;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    gap: 5px;
+}
+.card{
+    background-color: cadetblue;
+    border: thin solid black;
+    border-radius: 5px;
+    width: 150px;
+}
+.highlight{
+    order: -1;
+}
