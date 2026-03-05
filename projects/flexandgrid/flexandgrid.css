@@ -24,6 +24,7 @@ nav a{
 }
 .bigboy{
     display: flex;
+    gap: 10px;
 }
 .parent1{
     display: flex;
