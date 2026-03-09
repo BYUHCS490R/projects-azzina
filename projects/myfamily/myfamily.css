@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fab3ad;
+}
+header{
+    top: 0;
+}
+header h1{
+    margin: 0;
+    background-color: #57675c;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    background-color: beige;
+    justify-content: space-evenly;
+}
+nav a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.bigboy{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.sidebar{
+    flex: 0 0 30%;
+    min-width: 0;
+}
+.sidebar figure{
+    margin: 0;
+    width: 100%;
+}
+.sidebar figure img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.parentcard{
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+.card{
+    background-color: #8da99b;
+    border: thin solid black;
+    box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.7);
+    border-radius: 5px;
+    flex: 1 1 25%;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media ONLY print{
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    nav{
+        display: none;
+    }
+}
+@media ONLY screen AND (max-width: 700px){
+    body{
+        background-color: #fab3ad;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-bottom: thin solid white;
+    }
+    .bigboy{
+        flex-direction: column;
+    }
+    .sidebar{
+        order: 2;
+        flex: 1 1 100%;
+    }
+    .parentcard{
+        order: 1;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 95%;
+    }
+}
