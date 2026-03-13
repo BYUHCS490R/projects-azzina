@@ -17,7 +17,8 @@
     </nav>
     <main>
         <h2>Class Schedule</h2>
-        <table border="10">
+        <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo velit dolore provident eius earum voluptas labore molestiae, aliquid illum est commodi reprehenderit nihil iste veniam. Cum velit praesentium consequuntur ipsam?</p>
+        <table class="schedule">
             <caption>Class Schedule</caption>
             <thead>
                 <tr>
@@ -67,17 +68,20 @@
                     <td>3</td>
                 </tr>
             </tbody>
-            <tfooter>
+            <tfoot>
                 <tr>
                     <th colspan="4" id="totalcredit">Total Credits:</th>
                     <td headers="totalcredit">15</td>
                 </tr>
-            </tfooter>
+            </tfoot>
         </table>
         <hr>
-        <p>1. When do you use a table?<br>When there's data you want to present to the user.</p>
+        <!--<p>1. When do you use a table?<br>When there's data you want to present to the user.</p>
         <p>2. When do you not use a table?<br>If you want to present cards on a webpage and layout instead of data, you can use css flex or grid.</p>
-        <p>3. When do you need to do extra work for table accessibility?<br>You do extra work when the tables are more complex like they have merged cells.</p>
+        <p>3. When do you need to do extra work for table accessibility?<br>You do extra work when the tables are more complex like they have merged cells.</p>-->
+        <p>1. Why don't we use the border attribute?<br>We dont use the border attribute in HTML Tables because its a validation error in HTML5 in favor of using CSS to style the table.</p>
+        <p>2. What is the easiest way to color every other row a different color?<br>Using the pseudoclass:
+        .schedule tbody tr:nth-of-type(odd)</p>
     </main>
     <footer>
         <p>&copy; Hatada, Zeph Kentaro</p>
