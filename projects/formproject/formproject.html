@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="formproject.css">
+</head>
+<body>
+    <header>
+        <h1>Kentaro's Form</h1>
+    </header>
+    <main>
+        <form action="formproject2.html" method="post">
+            <fieldset>
+                <legend>Sign Up for Comic Con!</legend>
+                <div class="form-row">
+                    <label for="fname">Name: </label>
+                    <input type="text" name="fullname" id="fname" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="name@email.com">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password: </label>
+                    <input type="password" name="pass" id="password">
+                </div>
+                <div class="form-row">
+                    <label for="birthday">Birthday: </label>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Gender:</div>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+                <div class="form-row">
+                    <label for="daypass">Day Pass Group: </label>
+                    <select name="daypass" id="daypass">
+                        <option value="blank"> ----- </option>
+                        <option value="CA">Silver</option>
+                        <option value="HI">Gold</option>
+                        <option value="UT">Platinum</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments">Pre-filled in</textarea>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="gender" value="male" checked> Receive notifs about the event?</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign Up">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Hatada, Zeph Kentaro</p>
+    </footer>
+</body>
+</html>
