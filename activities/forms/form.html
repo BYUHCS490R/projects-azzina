@@ -11,6 +11,7 @@
         <h1>Kentaro's Web Design Site</h1>
     </header>
     <main>
+        <div id="message"></div>
         <form action="formprocs.html" method="get" id="myForm">
             <fieldset>
                 <legend>Sign Up</legend>
@@ -63,39 +64,17 @@
         <p>2. The form tag has a "method" attribute. What does it do?<br>The method tag shows which method to send data to the link in the action tag. This can either be POST or GET.</p>
         <p>3. What is the difference between a "POST" and a "GET"?<br>POST is used to send data that changes something in the database, while GET is used to search/filter/sort and does not change the database.</p>
         <p>1. What are different ways to style your form?<br>We can style the form using CSS to make the input boxes all align with each other. We can also change how it looks like when an input box is selected.</p>
-        <p>2. How does flex help for both Desktop and Mobile phones?<br>It helps because we can change the flex direction to make it columnal to look better on a mobile device.</p>-->
+        <p>2. How does flex help for both Desktop and Mobile phones?<br>It helps because we can change the flex direction to make it columnal to look better on a mobile device.</p>
         <p>1. What is JavaScript? How did it get its name?<br>JavaScript is another programming language just like HTML and Java. It got its name as a marketing strategy since Java was popular.</p>
         <p>2. What are the two ways you can run JavaScript?<br>On a web browser and on Node.js</p>
         <p>3. What was the most popular front-end js library?<br>jQuery.js</p>
-        <p>4. What is the most popular front-end js library today?<br>React</p>
+        <p>4. What is the most popular front-end js library today?<br>React</p>-->
+        <p>1. What is AJAX?<br>AJAX stands for Asynchronous Javascript and XML. Its a way to store data and update parts of a webpage without reloading the entire page.</p>
+        <p>2. Why do you put your JS Code in a separate file?<br>Its better to put JS code in a separate file for it to be more organized and be reused and shared on multiple files.</p>
     </main>
     <footer>
         <p>&copy; Hatada, Zeph Kentaro 2026</p>
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event){
-            event.preventDefault();
-
-            const fullname = document.getElementById('fullname').value;
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('pass').value;
-            const age = document.getElementById('age').value;
-
-            if(!fullname || !email){
-                alert("You need a name and email.")
-                return;
-            }
-            if(!age || age<18){
-                alert("You need to be 18")
-            }
-            const formData = {
-                name: fullname,
-                email: email,
-                password: password,
-                age: age
-            };
-            console.log(formData);
-        });
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
