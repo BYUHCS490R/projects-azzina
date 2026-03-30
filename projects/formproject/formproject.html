@@ -8,27 +8,28 @@
 </head>
 <body>
     <header>
-        <h1>Kentaro's Form</h1>
+        <h1>Comic Con 2026</h1>
     </header>
     <main>
-        <form action="formproject2.html" method="post">
+        <div id="message"></div>
+        <form action="formproject2.html" method="GET" id="formproject">
             <fieldset>
                 <legend>Sign Up for Comic Con!</legend>
                 <div class="form-row">
-                    <label for="fname">Name: </label>
-                    <input type="text" name="fullname" id="fname" required>
+                    <label for="fullname">Name: </label>
+                    <input type="text" name="fullname" id="fullname" required>
                 </div>
                 <div class="form-row">
                     <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" placeholder="name@email.com">
+                    <input type="email" name="email" id="email" placeholder="name@email.com" required>
                 </div>
                 <div class="form-row">
-                    <label for="password">Password: </label>
-                    <input type="password" name="pass" id="password">
+                    <label for="pass">Password: </label>
+                    <input type="password" name="pass" id="pass" required>
                 </div>
                 <div class="form-row">
-                    <label for="birthday">Birthday: </label>
-                    <input type="date" name="birthday" id="birthday">
+                    <label for="age">Age: </label>
+                    <input type="number" name="age" id="age" required>
                 </div>
                 <div class="check-row">
                     <div class="spacer">Gender:</div>
@@ -37,11 +38,11 @@
                 </div>
                 <div class="form-row">
                     <label for="daypass">Day Pass Group: </label>
-                    <select name="daypass" id="daypass">
+                    <select name="daypass" id="daypass" required>
                         <option value="blank"> ----- </option>
-                        <option value="CA">Silver</option>
-                        <option value="HI">Gold</option>
-                        <option value="UT">Platinum</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Platinum">Platinum</option>
                     </select>
                 </div>
                 <div class="form-row">
@@ -62,5 +63,6 @@
     <footer>
         <p>&copy; Hatada, Zeph Kentaro</p>
     </footer>
+    <script src="formproject.js"></script>
 </body>
 </html>
