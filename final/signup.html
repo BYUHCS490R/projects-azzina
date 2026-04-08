@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Sign-Up</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <h1>Hayao Miyazaki's Studio Ghibli</h1>
+    </header>
+    <nav>
+        <a href="final.html">Home</a>
+        <a href="miyazaki.html">Hayao Miyazaki</a>
+        <a href="hisaishi.html">Joe Hisaishi</a>
+        <a href="hits.html">Studio Ghibli Hits</a>
+        <a href="characters.html">Popular Characters</a>
+        <a href="signup.html" class="active">Concert Sign-Up</a>
+    </nav>
+    <div id="message"></div>
+        <form action="final2.html" method="GET" id="final">
+            <fieldset>
+                <legend>Sign Up for Joe Hisaishi's Orchestral Concert!</legend>
+                <p>The next Joe Hisaishi Orchestral Concert will be in the Concert Hall in Honolulu, Hawaii on May 4, 2026 from 7:30PM to 9:30PM. Secure your seat below!</p>
+                <div class="form-row">
+                    <label for="fullname">Name: </label>
+                    <input type="text" name="fullname" id="fullname" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="name@email.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password: </label>
+                    <input type="password" name="pass" id="pass" required>
+                </div>
+                <div class="form-row">
+                    <label for="age">Age: </label>
+                    <input type="number" name="age" id="age" required>
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Gender:</div>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+                <div class="form-row">
+                    <label for="seat">Seat Group: </label>
+                    <select name="seat" id="seat" required>
+                        <option value="blank"> ----- </option>
+                        <option value="Silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Platinum">Platinum</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments">Pre-filled in</textarea>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="gender" value="male" checked> Receive notifs about the event?</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign Up">
+                </div>
+            </fieldset>
+        </form>
+    <footer>
+        <p>&copy; Hatada, Zeph Kentaro</p>
+    </footer>
+    <script src="final.js"></script>
+</body>
+</html>

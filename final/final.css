@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ECE3D4;
+}
+header{
+    top: 0;
+}
+header h1{
+    margin: 0;
+    background-color: #876C57;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    background-color: #82C1ED;
+    justify-content: space-evenly;
+}
+nav a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.active{
+    color: red;
+}
+figcaption{
+    font-size: smaller;
+}
+figure{
+    margin: 0;
+    width: 100%;
+}
+figure img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.bigboy{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.sidebar{
+    flex: 0 0 30%;
+    min-width: 0;
+    padding: 5px;
+}
+.parentcard{
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+.card{
+    background-color: #876C57;
+    border: thin solid black;
+    box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.7);
+    border-radius: 5px;
+    flex: 1 1 25%;
+    padding: 5px;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+form{
+    padding: 10px;
+}
+.form-row, .check-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 ;
+}
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+.spacer{
+    width: 150px;
+    text-align: right;
+}
+input:not([type='submit']), select, textarea{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    background-color: #d1c9e0;
+}
+input:not([type='submit']):focus, select:focus, textarea:focus{
+    background-color: white;
+}
+input[type='submit']{
+    padding: 10px;
+    background-color: #A7ABDE;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px gray;
+}
+fieldset{
+    box-shadow: 5px 5px 3px gray;
+}
+legend{
+    padding: 10px;
+    background-color: #876C57;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parent2{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+}
+.sidebar2{
+    flex: 0 0 30%;
+    min-width: 0;
+}
+.ghiblihits{
+    border: thick solid black;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.ghiblihits thead{
+    background-color: #AB4039;
+}
+.ghiblihits td{
+    border-bottom: 1px solid #536883;
+    vertical-align: center;
+}
+.ghiblihits tbody tr:nth-of-type(odd){
+    background-color: rgb(199, 194, 194);
+}
+.videowrap iframe, .videowrap video{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    object-fit: cover;
+}
+.parentcard3{
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+.card3{
+    background-color: #876C57;
+    border: thin solid black;
+    box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+    flex: 1 1 70%;
+}
+@media ONLY print{
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    nav{
+        display: none;
+    }
+}
+@media ONLY screen AND (max-width: 700px){
+    body{
+        background-color: #ECE3D4;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-bottom: thin solid white;
+    }
+    .bigboy{
+        flex-direction: column;
+    }
+    .sidebar{
+        order: 2;
+        flex: 1 1 100%;
+    }
+    .parentcard{
+        order: 1;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 95%;
+    }
+    .form-row, .check-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+    }
+    .spacer{
+        text-align: left;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .tablecontainer{
+        overflow-x: auto;
+    }
+}
