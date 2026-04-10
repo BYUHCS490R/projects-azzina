@@ -165,7 +165,7 @@ legend{
     background-color: #A7ABDE;
     border: thin solid black;
     border-radius: 5px;
-    flex: 1 0 25%;
+    flex: 1 0 20%;
     padding: 10px;
     width: 25%;
 }
@@ -222,5 +222,13 @@ legend{
     }
     .tablecontainer{
         overflow-x: auto;
+    }
+    .parentcard4{
+        order: 1;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card4{
+        width: 95%;
     }
 }
