@@ -155,6 +155,25 @@ legend{
     padding: 5px;
     flex: 1 1 70%;
 }
+.parent4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.card4{
+    background-color: #A7ABDE;
+    border: thin solid black;
+    border-radius: 5px;
+    flex: 1 0 25%;
+    padding: 10px;
+    width: 25%;
+}
+.card4 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 @media ONLY print{
     body{
         font-family: 'Courier New', Courier, monospace;
